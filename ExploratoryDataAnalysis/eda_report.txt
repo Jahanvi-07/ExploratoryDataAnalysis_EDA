@@ -1,0 +1,175 @@
+EXPLORATORY DATA ANALYSIS REPORT
+Books Dataset
+
+============================================================
+
+1. INTRODUCTION
+   ============================================================
+
+This report presents the results of Exploratory Data Analysis (EDA) performed on a dataset containing 1,000 books.
+
+The analysis focuses on understanding the dataset structure, checking data quality, examining book prices and ratings, identifying patterns, detecting outliers, and studying the relationship between book price and rating.
+
+============================================================
+
+2. DATASET OVERVIEW
+   ============================================================
+
+Number of records: 1,000
+
+Number of variables: 5
+
+Variables:
+
+* title
+* price_gbp
+* rating
+* availability
+* url
+
+The dataset contains book titles, prices in British pounds, ratings from 1 to 5, availability information, and the URL of each book.
+
+============================================================
+
+3. DATA QUALITY
+   ============================================================
+
+Missing values:
+
+* title: 0
+* price_gbp: 0
+* rating: 0
+* availability: 0
+* url: 0
+
+Duplicate rows: 0
+
+All 1,000 books are listed as "In stock".
+
+Therefore, no missing values or duplicate rows were identified in the dataset.
+
+============================================================
+
+4. PRICE ANALYSIS
+   ============================================================
+
+Average price: £35.07
+
+Median price: £35.98
+
+Minimum price: £10.00
+
+Maximum price: £59.99
+
+The prices range from £10.00 to £59.99. The mean and median prices are relatively close, indicating that the central tendency of the price distribution is around £35.
+
+============================================================
+
+5. RATING ANALYSIS
+   ============================================================
+
+Rating distribution:
+
+1 star: 226 books
+2 stars: 196 books
+3 stars: 203 books
+4 stars: 179 books
+5 stars: 196 books
+
+The 1-star rating is the most frequent rating, while the 4-star rating is the least frequent.
+
+============================================================
+
+6. PRICE AND RATING RELATIONSHIP
+   ============================================================
+
+The correlation between price and rating is:
+
+0.028166
+
+This value is very close to zero.
+
+Therefore, there is an extremely weak positive linear relationship between book price and rating in this dataset.
+
+The result suggests that book price does not have a meaningful linear relationship with rating within the analyzed dataset.
+
+============================================================
+
+7. OUTLIER ANALYSIS
+   ============================================================
+
+The Interquartile Range (IQR) method was used to detect potential price outliers.
+
+Lower limit: -£15.92
+
+Upper limit: £85.48
+
+Number of detected price outliers: 0
+
+No book prices were classified as outliers using the 1.5 × IQR rule.
+
+============================================================
+
+8. VISUAL ANALYSIS
+   ============================================================
+
+Four visualizations were generated:
+
+1. Price Distribution
+
+   * Shows the distribution of book prices.
+
+2. Rating Distribution
+
+   * Shows the frequency of each book rating.
+
+3. Price by Rating
+
+   * Compares book price distributions across ratings.
+
+4. Price vs Rating
+
+   * Shows the relationship between book price and rating.
+
+These visualizations support the statistical findings and provide a visual understanding of the dataset.
+
+============================================================
+
+9. KEY FINDINGS
+   ============================================================
+
+10. The dataset contains 1,000 books and 5 variables.
+
+11. No missing values were found.
+
+12. No duplicate records were found.
+
+13. The average book price is £35.07.
+
+14. The median book price is £35.98.
+
+15. Book prices range from £10.00 to £59.99.
+
+16. The 1-star rating is the most common rating.
+
+17. All books are listed as being in stock.
+
+18. No price outliers were detected using the IQR method.
+
+19. The correlation between price and rating is approximately 0.0282, indicating almost no linear relationship.
+
+============================================================
+
+10. CONCLUSION
+    ============================================================
+
+The exploratory data analysis successfully examined the structure, quality, distribution, and relationships within the books dataset.
+
+The dataset was found to be complete and free from duplicate records. Book prices showed a range from £10.00 to £59.99, with an average price of £35.07.
+
+The rating distribution was relatively spread across the five rating categories, with 1-star books being the most frequent.
+
+The correlation analysis showed that price and rating have almost no linear relationship in this dataset. Therefore, higher-priced books cannot be assumed to have higher ratings based on this dataset.
+
+Overall, the EDA provided useful insights into the dataset and demonstrated how statistical analysis and visualization can be used to understand data before applying further analytical techniques.
+
