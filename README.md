@@ -1,4 +1,4 @@
-# ExploratoryDataAnalysis_EDA) — Books Dataset
+# ExploratoryDataAnalysis_EDA — Books Dataset
 
 ## 1. Project Overview
 
